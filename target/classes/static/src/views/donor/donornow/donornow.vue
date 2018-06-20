@@ -16,7 +16,7 @@
                 </el-select>
               </el-form-item>
                <el-form-item label="捐款金额(链克)">
-                <el-input v-model="form.amount" id="liankeamount" class="moveleft" style="width:100px;"></el-input>
+                <el-input v-model="form.amount" :disabled="true" id="liankeamount" class="moveleft" style="width:100px;"></el-input>
                 <p id="liankeurl">{{liankeUrl}}</p>
               </el-form-item>
               <el-form-item label="扫码捐款">
