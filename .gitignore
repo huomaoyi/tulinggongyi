@@ -1,0 +1,13 @@
+.DS_Store
+src/vue/dist/node_modules/
+src/vue/dist/
+src/vue/npm-debug.log
+src/vue/yarn-error.log
+target/
+
+# Editor directories and files
+.idea
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
